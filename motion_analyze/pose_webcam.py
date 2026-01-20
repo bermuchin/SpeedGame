@@ -80,9 +80,9 @@ def count_fingers(hand_landmarks, handedness):
     thumb_ip = hand_landmarks[3]
 
     if handedness == "Right":
-        fingers.append(thumb_tip.x < thumb_ip.x)
-    else:
         fingers.append(thumb_tip.x > thumb_ip.x)
+    else:
+        fingers.append(thumb_tip.x < thumb_ip.x)
 
     tip_ids = [8, 12, 16, 20]
     pip_ids = [6, 10, 14, 18]
