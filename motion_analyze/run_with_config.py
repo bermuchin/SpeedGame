@@ -102,4 +102,4 @@ if __name__ == "__main__":
         # 4. LLM의 결과를 Print
 
         # 5. 비장의 무기
-        run_pose_webcam()
+        # run_pose_webcam()
